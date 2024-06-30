@@ -189,9 +189,6 @@ const TransformationForm = ({
           >
             {isTransforming ? "Transforming..." : "Apply Transforming"}
           </Button>
-        </div>
-
-        <div className="flex flex-col gap-4">
           <Button
             type="submit"
             className="submit-button capitalize"
